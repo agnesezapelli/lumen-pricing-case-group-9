@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LUMEN Germany Launch Scenario Planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero"><div><p class="eyebrow">LUMEN · GERMANY MARKET ENTRY</p><h1>Launch Scenario Planner</h1><p class="sub">A decision cockpit for the price, audience, city and channel trade-offs management must make.</p></div><div class="badge">Evidence-led · No German sales forecast</div></header>
+    <section class="layout">
+      <aside class="panel controls"><div class="section-kicker">01 · DECISION INPUTS</div>
+        <label>Launch city<select id="city"></select></label>
+        <label>Target segment<select id="segment"></select></label>
+        <label>Launch price<select id="price"></select></label>
+        <div class="section-label">Sales channel mix <span id="mix-total">100%</span></div>
+        <label class="range-label">DTC Online <output id="dtc-out">40%</output><input id="dtc" type="range" min="0" max="100" value="40"></label>
+        <label class="range-label">Gym &amp; Office <output id="gym-out">25%</output><input id="gym" type="range" min="0" max="100" value="25"></label>
+        <label class="range-label">Retail/Grocery <output id="retail-out">35%</output><input id="retail" type="range" min="0" max="100" value="35"></label>
+        <label>Marketing benchmark<select id="marketing"></select></label>
+        <p class="control-note">Mix percentages are editable planning assumptions. They do not represent observed German demand.</p>
+      </aside>
+      <div class="content">
+        <section class="recommendation panel"><div><div class="section-kicker">RECOMMENDED STARTING SCENARIO</div><h2 id="rec-title"></h2><p id="rec-text"></p></div><div class="confidence">BALANCED<br><strong>evidence-led</strong></div></section>
+        <section class="kpis" id="kpis"></section>
+        <section class="grid two"><article class="panel"><div class="section-kicker">02 · PRICE DECISION</div><h3>Acceptance versus contribution</h3><div id="price-chart" class="bars"></div><p class="caption">Observed price-test acceptance and contribution ranges. The selected price is highlighted.</p></article><article class="panel"><div class="section-kicker">03 · CHANNEL DECISION</div><h3>Unit economics at selected price</h3><div id="channel-chart" class="bars"></div><p class="caption">Contribution per unit from the price-test results; marketing acquisition is analyzed separately.</p></article></section>
+        <section class="grid two"><article class="panel"><div class="section-kicker">04 · CUSTOMER &amp; MARKET EVIDENCE</div><h3 id="segment-title"></h3><div id="segment-evidence"></div></article><article class="panel"><div class="section-kicker">CITY PRIORITY</div><h3 id="city-title"></h3><div id="city-evidence"></div></article></section>
+        <section class="grid two"><article class="panel"><div class="section-kicker">COMPETITIVE CONTEXT</div><h3>Where the selected price sits</h3><div id="competitor-chart" class="competitors"></div></article><article class="panel"><div class="section-kicker">MARKETING BENCHMARK</div><h3 id="marketing-title"></h3><div id="marketing-evidence"></div></article></section>
+        <section class="panel"><div class="section-kicker">05 · MANAGEMENT READOUT</div><div class="readout-grid"><div><h3>CMO lens</h3><p id="cmo"></p></div><div><h3>CFO lens</h3><p id="cfo"></p></div><div><h3>What this scenario does not prove</h3><p id="limits"></p></div></div></section>
+        <section class="panel assumptions"><div class="section-kicker">06 · ASSUMPTIONS &amp; DATA QUALITY</div><p><b>Observed:</b> German survey signals, price-test results, competitor prices, existing-market sales, channel economics, and historical marketing benchmarks.</p><p><b>Calculated:</b> weighted net price, contribution per unit, contribution margin, LTV:CAC benchmark, and evidence-based recommendation text.</p><p><b>Unavailable:</b> German units, revenue, repeat purchase, customer-level attribution, and true time-to-payback. LTV:CAC is not a payback period.</p><p><b>Quality note:</b> historical sales contain duplicate rows and an unusual spike week; regional market shares are illustrative.</p></section>
+      </div>
+    </section>
+  </main><script src="app.js"></script>
+</body></html>
