@@ -46,7 +46,8 @@ These questions aren't here to slow you down — they're part of what's being ev
 
 ## Our Approach
 
-*[To be filled in by the team at the end.]*
+*We created a dashboard in order to help LUMEN in its decision with scenarios depending on various variables that the managers of LUMEN can change :
+https://lumen-pricing-case-group-9-jhtand95r-group-9-4dd3.vercel.app/*
 
 ## Final project recommendation
 
