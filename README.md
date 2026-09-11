@@ -47,3 +47,23 @@ These questions aren't here to slow you down — they're part of what's being ev
 ## Our Approach
 
 *[To be filled in by the team at the end.]*
+
+## Final project recommendation
+
+LUMEN should begin its Germany launch in **Berlin**, targeting **Urban Wellness Professionals** first and **Fitness & Gym-Goers** second, at a supported launch price of **€2.19 per 330ml can**. The recommended route is a DTC-led, Gym & Office-supported, selectively distributed Retail/Grocery launch: DTC and Gym & Office provide stronger contribution per unit, while Retail/Grocery provides reach and the largest historical unit share in LUMEN’s existing markets.
+
+This recommendation balances the CMO’s premium-performance ambition with the CFO’s need for contribution and efficient acquisition. It is a launch hypothesis, not a German sales forecast: the repository has no German sales, repeat-purchase, customer-level attribution, or time-to-payback data.
+
+## Dashboard
+
+Open `dashboard/index.html` in a browser, or run `python3 -m http.server 8000 --directory dashboard` from the repository root and visit `http://localhost:8000`. Change city, segment, price, marketing benchmark, and sales-channel mix to compare supported scenarios; channel percentages should sum to 100%.
+
+The dashboard uses aggregate customer and city evidence, price-test results, channel economics, competitor prices, cost data, and historical marketing benchmarks. It does not load or expose the names or email fields in `data/customer_survey.csv`.
+
+## Workstream documentation
+
+- Workstream 1: `workstreams/01-customer-market.md`
+- Workstream 2: `workstreams/02-pricing-strategy.md`
+- Workstream 3: `workstreams/03-channel-financial.md`
+- Workstream 4: `dashboard/`
+- Workstream 5: `workstreams/05-consulting-qc.md`
