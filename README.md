@@ -68,3 +68,13 @@ The dashboard uses aggregate customer and city evidence, price-test results, cha
 - Workstream 3: `workstreams/03-channel-financial.md`
 - Workstream 4: `dashboard/`
 - Workstream 5: `workstreams/05-consulting-qc.md`
+
+## Team Contributions
+
+- **Antoine PESSONNIER** — Customer & Market Analysis: target segments and launch-city recommendation.
+- **Gianmarco CERESER** — Pricing Strategy: launch price and premium positioning analysis.
+- **Juan De Dios BARRADAS AYALA** — Channel & Financial Analysis: channel mix, unit economics and marketing benchmarks.
+- **Agnese Zapelli** — Dashboard / Prototype Design: scenario planner structure, inputs, KPI outputs and interactive decision logic.
+- **Ali EL GUERROUJ** — Consulting Story & Quality Control: final recommendation, assumptions, data quality and consistency review.
+
+The team collaborated on the overall recommendation, testing and final review. Due to technical constraints during the workshop, the team worked primarily from a shared computer.
